@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363EE1012AC3B7CD002ABFF1 /* voice-command-vero.json in Resources */ = {isa = PBXBuildFile; fileRef = 363EE1002AC3B7CD002ABFF1 /* voice-command-vero.json */; };
 		36C936D42AC2BE17009B7971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C936D32AC2BE17009B7971 /* AppDelegate.swift */; };
 		36C936D62AC2BE17009B7971 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C936D52AC2BE17009B7971 /* SceneDelegate.swift */; };
 		36C936D82AC2BE17009B7971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C936D72AC2BE17009B7971 /* ViewController.swift */; };
 		36C936DB2AC2BE17009B7971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C936D92AC2BE17009B7971 /* Main.storyboard */; };
 		36C936DD2AC2BE18009B7971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C936DC2AC2BE18009B7971 /* Assets.xcassets */; };
 		36C936E02AC2BE18009B7971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C936DE2AC2BE18009B7971 /* LaunchScreen.storyboard */; };
+		A7E444A8BE9FF677F760CD9D /* Pods_SpeechToText_Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41CE1147FCD9123479ED58C /* Pods_SpeechToText_Lottie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		363EE1002AC3B7CD002ABFF1 /* voice-command-vero.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "voice-command-vero.json"; sourceTree = "<group>"; };
 		36C936D02AC2BE17009B7971 /* SpeechToText-Lottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeechToText-Lottie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C936D32AC2BE17009B7971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C936D52AC2BE17009B7971 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		36C936DC2AC2BE18009B7971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C936DF2AC2BE18009B7971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36C936E12AC2BE18009B7971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BD4FE489B60800D182D8BF /* Pods-SpeechToText-Lottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechToText-Lottie.debug.xcconfig"; path = "Target Support Files/Pods-SpeechToText-Lottie/Pods-SpeechToText-Lottie.debug.xcconfig"; sourceTree = "<group>"; };
+		B41CE1147FCD9123479ED58C /* Pods_SpeechToText_Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechToText_Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D541237E5C9AACA13552DB64 /* Pods-SpeechToText-Lottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechToText-Lottie.release.xcconfig"; path = "Target Support Files/Pods-SpeechToText-Lottie/Pods-SpeechToText-Lottie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E444A8BE9FF677F760CD9D /* Pods_SpeechToText_Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36566E466F8FB42729FF974D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B41CE1147FCD9123479ED58C /* Pods_SpeechToText_Lottie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		36C936C72AC2BE17009B7971 = {
 			isa = PBXGroup;
 			children = (
 				36C936D22AC2BE17009B7971 /* SpeechToText-Lottie */,
 				36C936D12AC2BE17009B7971 /* Products */,
+				6FF17911FBA6A7DD15803061 /* Pods */,
+				36566E466F8FB42729FF974D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +77,21 @@
 				36C936D52AC2BE17009B7971 /* SceneDelegate.swift */,
 				36C936D72AC2BE17009B7971 /* ViewController.swift */,
 				36C936D92AC2BE17009B7971 /* Main.storyboard */,
+				363EE1002AC3B7CD002ABFF1 /* voice-command-vero.json */,
 				36C936DC2AC2BE18009B7971 /* Assets.xcassets */,
 				36C936DE2AC2BE18009B7971 /* LaunchScreen.storyboard */,
 				36C936E12AC2BE18009B7971 /* Info.plist */,
 			);
 			path = "SpeechToText-Lottie";
+			sourceTree = "<group>";
+		};
+		6FF17911FBA6A7DD15803061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79BD4FE489B60800D182D8BF /* Pods-SpeechToText-Lottie.debug.xcconfig */,
+				D541237E5C9AACA13552DB64 /* Pods-SpeechToText-Lottie.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36C936E42AC2BE18009B7971 /* Build configuration list for PBXNativeTarget "SpeechToText-Lottie" */;
 			buildPhases = (
+				6D83EDD8D00880042691E1ED /* [CP] Check Pods Manifest.lock */,
 				36C936CC2AC2BE17009B7971 /* Sources */,
 				36C936CD2AC2BE17009B7971 /* Frameworks */,
 				36C936CE2AC2BE17009B7971 /* Resources */,
+				F843B5945282D5DDC89A665F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +156,54 @@
 			files = (
 				36C936E02AC2BE18009B7971 /* LaunchScreen.storyboard in Resources */,
 				36C936DD2AC2BE18009B7971 /* Assets.xcassets in Resources */,
+				363EE1012AC3B7CD002ABFF1 /* voice-command-vero.json in Resources */,
 				36C936DB2AC2BE17009B7971 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D83EDD8D00880042691E1ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechToText-Lottie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F843B5945282D5DDC89A665F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechToText-Lottie/Pods-SpeechToText-Lottie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechToText-Lottie/Pods-SpeechToText-Lottie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeechToText-Lottie/Pods-SpeechToText-Lottie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		36C936CC2AC2BE17009B7971 /* Sources */ = {
@@ -282,6 +354,7 @@
 		};
 		36C936E52AC2BE18009B7971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79BD4FE489B60800D182D8BF /* Pods-SpeechToText-Lottie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +383,7 @@
 		};
 		36C936E62AC2BE18009B7971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D541237E5C9AACA13552DB64 /* Pods-SpeechToText-Lottie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

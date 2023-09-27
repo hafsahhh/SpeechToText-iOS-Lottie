@@ -1,0 +1,6 @@
+framework module Pods_SpeechToText_Lottie {
+  umbrella header "Pods-SpeechToText-Lottie-umbrella.h"
+
+  export *
+  module * { export * }
+}
